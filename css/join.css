@@ -1,0 +1,297 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #0071e3;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.header {
+	background-color: #333333;
+}
+
+#dheadern {
+	width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#globalnav {
+	background-color: #333333;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+nav>ul>li {
+	background-color: #333333;
+	list-style-type: none;
+	float: left;
+	margin: 0px auto;
+	overflow: hidden;
+	padding: 0px 40px;
+	text-align: center;
+}
+
+nav>ul>li>a>img {
+	opacity: 80%;
+	height: 44px;
+}
+
+nav>ul>li>a>img:hover {
+	opacity: 100%;
+}
+
+#divnav {
+	background-color: #f5f5f7;
+}
+
+#secondnav>div {
+	text-align: center;
+	margin: 0px auto;
+	width: 1000px;
+}
+
+#subtitle {
+	position: relative;
+	background-color: #f5f5f7;
+	height: 50px;
+	text-align: left;
+	padding: 0px 40px;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#subright {
+	width: 370px;
+	margin-left: 700px;
+}
+#subright>div{
+	position: absolute;
+	top: 48px;
+	padding-top:15px;
+}
+
+#subnav li {
+	list-style-type: none;
+	float: left;
+	text-align: right;
+	background-color: #f5f5f7;
+	padding: 0px 15px;
+}
+
+#subnav li>a {
+	font-size: 17px;
+	color: #000000;
+}
+
+#intro {
+	text-align: center;
+	margin: 0px auto;
+}
+
+#introdiv {
+	padding: 30px 0px 0px;
+	width: 1200px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+#introimg {
+	background-image: url("../images/apple_id.jpg");
+	background-repeat: no-repeat;
+	height: 170px;
+}
+
+#introimg>div {
+	width: 1200px;
+	margin: 0px auto;
+	text-align: center;
+	top: 168px;
+}
+
+#introimg>div>h1 {
+	color: white;
+	font-size: 40px;
+	padding-top:50px;
+	
+}
+
+section div {
+/* 	width: 1200px; */
+	margin: 0px auto;
+}
+
+#joininfo {
+	text-align: center;
+}
+form>div{
+	width:80%;
+	border-bottom: 1px solid #d6d6d6;
+	
+}
+
+input {
+	margin: 0px 0px 14px;
+	padding: 18px 16px 0px;
+	height: 36px;
+	border: 1px solid #d6d6d6;
+	border-radius: 4px;
+	color: #8e8e8e;
+}
+
+#firstdiv {
+	padding: 15px 0px 20px;
+	width: 460px;
+}
+
+#lastname {
+	width: 179px;
+	margin: 0px 10px 14px 0px;
+}
+
+#firstname {
+	width: 196px;
+	margin: 0px 0px 14px 0px;
+}
+
+h3 {
+	font-size: 14px;
+	text-align: left;
+	margin: 0px auto;
+	padding-bottom: 2px;
+	color: #666666;
+}
+
+#seconddiv, #thirddiv, #fourthdiv, #fifthdiv {
+	padding: 30px 0px 20px;
+	width: 460px;
+	text-align: left;
+}
+
+
+
+#email {
+	margin-bottom: 4px;
+}
+
+#seconddiv>p {
+	font-size: 14px;
+	text-align: left;
+	margin: 0px auto;
+	margin-bottom: 10px;
+	color: #666666;
+}
+
+#thirddiv {
+	text-align: left;
+}
+
+#thirddiv>div {
+	width: 414px;
+	margin: 0px 0px 10px;
+	font-size: 14px;
+	text-align: left;
+}
+
+.input2 {
+	margin: 0px 0px;
+	vertical-align: middle;
+	color: #333333;
+}
+
+#fourthdiv>p {
+	font-size: 12px;
+	color: #666666;
+}
+
+select {
+	margin: 0px 0px 14px;
+	padding: 0px 28px 0px 16px;
+	width: 460px;
+	height: 56.1px;
+	border: 1px solid #d6d6d6;
+	border-radius: 4px;
+}
+
+.inputs {
+	width: 426px;
+}
+.inputs>div{
+		color: #666666;
+}
+.inputs>label{
+		color: #333333;
+}
+
+#lastdiv {
+	width: 460px;
+	text-align: center;
+	margin: 0 auto;
+	color: #333333;
+	font-size: 12px;
+}
+
+.icon {
+	width:55px;
+	height:44px;
+	margin: 20px auto;
+	background-image: url("../images/privacy_icon.png");
+	background-repeat: no-repeat;
+}
+
+#continuejoin {
+	margin: 30px 0px 40px;
+}
+
+#inputcon {
+/* 	margin: 0px 0px 14px; */
+	padding: 4px 17px;
+	height: 36px;
+	color:white;
+	background-color: #2188da;
+	border: 1px solid #0077cc;
+	border-radius: 4px;
+}
+
+
+section {
+	padding-bottom: 95px;
+}
+
+
+
+
+.footerdiv {
+	background-color: #f5f5f7;
+}
+
+.footerdiv div {
+	padding: 0px 22px;
+	/* 	background-color: #f5f5f7; */
+	width: 1000px;
+	margin: 0px auto;
+	/* 	margin: 0px 149.2px; */
+	/* 		text-align: center; */
+	/* 		font-size: 9pt; */
+}
+
+.footerdiv div div p {
+	padding: 0px 0px 4px;
+	font-size: 12px;
+}
+
+#divdivdiv2 {
+	border-bottom: 1px solid #d6d6d6;
+	padding: 17px 0px 21px;
+	font-size: 12px;
+}
