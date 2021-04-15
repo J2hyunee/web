@@ -3,7 +3,7 @@
 /* 	font-family: "SF Pro Text"; */
 /* 	src : url("../fonts/SF-Pro-Text-Regular.otf") format("opentype")); */
 /* } */
-@media screen and (min-width:766px){
+/* @media screen and (min-width:766px){ */
 	
 	*{
 	margin: 0px;
@@ -207,17 +207,7 @@
    		bottom:0;
 	}
 	
-}
-@media screen and (max-width:765px){
-	nav>ul>li{
-		background-color: #515151;
-		list-style-type: none;
-		float: left;
-		margin: auto;
-		padding: 0px 20px;
-	}
 
-	}
 
 
 
